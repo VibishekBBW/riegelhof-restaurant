@@ -2,7 +2,6 @@ import React from "react"
 import Navbar from "./compoent/Navbar"
 import Home from "./compoent/Home"
 import Menu from "./compoent/Menu"
-import Socials from "./compoent/Socials"
 import Contact from "./compoent/Contact"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 

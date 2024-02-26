@@ -1,5 +1,4 @@
-import React, {useState} from "react";
-import pdf from '../pdf/logo.pdf';
+import React from "react";
 
 const Home = () => {
 
