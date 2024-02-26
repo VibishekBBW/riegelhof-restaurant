@@ -6,10 +6,15 @@ import { ImCross } from "react-icons/im"
 
 const Navbar = () => {
   const [Mobile, setMobile] = useState(false)
+  /*
+            <Link to='/socials' className='socials'>
+            <li>Socials</li>
+          </Link>
+  */
   return (
     <>
       <nav className='navbar'>
-        <h3 className='logo'>Logo</h3>
+      <Link className="logo" to='/'><h3>Riegelhof</h3></Link>
         {/*
         if large screen ma xa bhane Mobile add huxa
         if mobile screen ma xa bhane nav-links-mobile add huxa
@@ -18,17 +23,11 @@ const Navbar = () => {
           <Link to='/' className='home'>
             <li>Home</li>
           </Link>
-          <Link to='/about' className='about'>
-            <li>About</li>
+          <Link to='/menu' className='menu'>
+            <li>Menu</li>
           </Link>
-          <Link to='/services' className='services'>
-            <li>Services</li>
-          </Link>
-          <Link to='/skills' className='skills'>
-            <li>Skills</li>
-          </Link>
-          <Link to='/contact' className='home'>
-            <li>contact</li>
+          <Link to='/contact' className='contact'>
+            <li>Contact</li>
           </Link>
         </ul>
         {/* 

@@ -1,9 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=UnifrakturMaguntia&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 a {
@@ -18,11 +20,15 @@ li {
   align-items: center;
   height: 10vh;
   box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
+  background-color: rgb(32, 32, 32);
 
   /*box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
 }
 .logo {
   font-size: 30px;
+  margin: 0; /* Remove default margins */
+  padding: 0;
+  color: goldenrod;
 }
 .nav-links {
   display: flex;
@@ -31,7 +37,7 @@ li {
 }
 
 .nav-links li {
-  color: black;
+  color: goldenrod;
   font-size: 20px;
   padding: 10px 20px;
   margin: 0 10px;
@@ -89,5 +95,44 @@ button {
   }
   .hero h1 {
     font-size: 50px;
+    background-color: rgb(54, 54, 54);
+    color: white;
   }
+}
+
+.adr{
+  border: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px; /* Adjust this value to add more space to the top */
+  padding: 40px
+}
+
+.map{
+  margin-top: 50px,
+}
+
+.main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: 'center';
+  text-align: center;
+}
+
+.home-div{
+  background-color: rgb(54, 54, 54);
+  height: 90vh;
+  color: white;
+}
+
+.ann-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
 }

@@ -1,12 +1,14 @@
-import React from "react"
+import React, {useState} from "react";
+import pdf from '../pdf/logo.pdf';
 
 const Home = () => {
+
   return (
-    <>
-      <section className='hero'>
-        <h1>Welcome To Home Page</h1>
-      </section>
-    </>
+    <div className="home-div">
+      <div className='ann-div'>
+        <h1>Opening Soon!</h1>
+      </div>
+    </div>
   )
 }
 export default Home
