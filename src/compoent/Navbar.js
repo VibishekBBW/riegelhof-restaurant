@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       <nav className='navbar'>
-      <Link className="logo" to='/'><h3>Riegelhof</h3></Link>
+      <Link className="logo" to='/'><h3>RIEGELHOF</h3></Link>
         {/*
         if large screen ma xa bhane Mobile add huxa
         if mobile screen ma xa bhane nav-links-mobile add huxa
